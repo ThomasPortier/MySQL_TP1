@@ -7,7 +7,8 @@ USE base_tp;
  
  INSERT INTO Plat (nom, tarif)
  VALUES ('Poulet Artichaud', 18),
-		('Le Plateau du Chevalier', 26);
+		('Le Plateau du Chevalier', 26),
+        ('Tarte', 12);
 
  
  INSERT INTO Ingredient (nom)
@@ -26,8 +27,7 @@ USE base_tp;
 		(1,2,1),						-- le plat (poulet artichaud) contient 1 artichaud
         (2,3,1),
         (2,4,2),
-        (2,5,3),
-        (2,3,1);
+        (2,5,3);
  
 
  
